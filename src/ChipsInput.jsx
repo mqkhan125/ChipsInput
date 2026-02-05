@@ -25,7 +25,16 @@ const ChipsInput = () => {
         </div>
 
         <div className="chips-container">
-        
+          {data != "" ?
+            data.map((item, index) => (
+                <div className ='chip-Box' key={index}>
+                    <p>{item}</p>
+                    <span onClick={() => setData(data.filter((item,id) => (
+                        id !== index
+                    )))}>❌</span>
+                </div>
+            )) : <p className="empty-message">No chips added yet</p>
+          }
         </div>
     </div>
     </>

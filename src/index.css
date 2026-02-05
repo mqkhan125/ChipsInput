@@ -14,3 +14,33 @@
   font-size: 20px;
   text-align: center;
 }
+
+.chips-container {
+ display: flex;
+ gap: 9px;
+ flex-wrap: wrap;
+ align-items: center;
+ margin-top: 22px;
+}
+
+.chip-Box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: rgb(88 199 250);
+  border-radius: 18px;
+  padding: 10px;
+  height: 20px;
+  width: fit-content;
+}
+
+.empty-message {
+  font-size: 20px;
+  color: gray
+}
+
+span{
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
