@@ -1,16 +1,102 @@
-# React + Vite
+# chipsInptu
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A lightweight and interactive **Chips Input component built with React**, allowing users to add and remove items dynamically using keyboard input.
 
-Currently, two official plugins are available:
+This project demonstrates core React concepts such as controlled components, state management with hooks, conditional rendering, and basic UI interactions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+<img width="793" height="328" alt="chipsInput" src="https://github.com/user-attachments/assets/3895571f-8b4b-4577-9983-c3e6df1532f9" />
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🔗 Overview
 
-## Expanding the ESLint configuration
+The **chipsInptu** component enables users to:
+- Enter text into an input field
+- Press **Enter** to convert the text into a chip
+- Remove individual chips with a click
+- View a placeholder message when no chips are added
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+It is a common UI pattern used in forms, tag inputs, and multi-select fields.
+
+---
+
+## ✨ Features
+
+- Dynamic chip creation using keyboard input
+- Individual chip removal functionality
+- Conditional empty-state message
+- Simple and responsive layout
+- Clean and readable component structure
+
+---
+
+## 🛠️ Technologies Used
+
+- **React**
+- **JavaScript (ES6+)**
+- **CSS**
+- React Hooks (`useState`)
+
+---
+
+## 🚀 Getting Started
+
+Follow the steps below to run the project locally.
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/chipsInptu.git
+2. Navigate to the project directory
+cd chipsInptu
+
+3. Install dependencies
+npm install
+
+4. Start the development server
+npm run dev
+
+The application will be available at:
+👉 http://localhost:3000
+---
+
+📁 Project Structure
+src/
+├── components/
+│   └── ChipsInput.jsx
+├── styles/
+│   └── styles.css
+├── App.js
+└── index.js
+---
+
+🧠 Component Behavior
+
+The input field is a controlled component
+
+On pressing Enter, the input value is added to state
+
+Chips are rendered dynamically using map
+
+Each chip includes a delete icon to remove it from state
+
+When the list is empty, a default message is displayed
+---
+🔮 Possible Enhancements
+
+Prevent duplicate chip entries
+
+Trim whitespace from input
+
+Backspace-to-delete last chip
+
+Keyboard accessibility improvements
+
+Animations for chip addition/removal
+
+Package as a reusable component
+---
+👤 Author
+
+Muhammad Qasim
+Frontend Developer | React Enthusiast
