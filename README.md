@@ -1,4 +1,4 @@
-# chipsInptu
+# chipsInput
 
 A lightweight and interactive **Chips Input component built with React**, allowing users to add and remove items dynamically using keyboard input.
 
